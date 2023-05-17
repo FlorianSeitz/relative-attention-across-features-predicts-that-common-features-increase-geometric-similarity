@@ -1,20 +1,16 @@
-# Testing Three Coping Strategies for Time Pressure in Categorizations and Similarity Judgments
+# Relative Attention Across Features Predicts That Common Features Increase Geometric Similarity
 
 ### Contributing Authors
-Seitz, Florian I.; von Helversen, Bettina; Albrecht, Rebecca; Rieskamp, Joerg; Jarecki, Jana B.
+Seitz, Florian I.
 
 ### Dates
-Data collection began in March 2019 (Studies 1 and 2) and ended in September 2022 (Study 3). Paper in press.
+Data collection was in March 2023. Paper in press.
 
 ### Abstract
-This article compares three psychological mechanisms to make multi-attribute inferences under time pressure in the domains of categorization and similarity judgments. Specifically, we test if people under time pressure attend to fewer object features (attention focus), if they respond less precisely (lower choice sensitivity), or if they simplify a psychological similarity function (simplified similarity). The simpler psychological similarity considers the number of matching features but ignores the actual feature value differences. We conducted three experiments (two of them preregistered) in which we manipulated time pressure: one was a categorization task, which was designed based on optimal experimental design principles, and the other two involved a similarity judgment task. Computational cognitive modeling following an exemplar-similarity framework showed that the behavior of most participants under time pressure is in line with a lower choice sensitivity, this means less precise response selection, especially when people make similarity judgments. We find that the variability of participants’ behavior increases with time pressure, to a point where participants are unlikely to make inferences anymore but instead start choosing readily available response options repeatedly. These findings are consistent with related research in other cognitive domains, such as risky choices, and add to growing evidence that time pressure and other forms of cognitive load do not necessarily alter core cognitive processes themselves but rather affect the precision of response selection.
+The human mind relies on similarity to organize the world around it. A geometric approach to similarity, which assumes that two objects' similarity decreases with the sum of their feature value differences, has been particularly influential. Yet, geometric similarities are claimed to ignore common features, which is inconsistent with human similarity judgments that increase the more common features the objects share (the common features effect). This paper shows that a relative attention mechanism, as it is implemented in current cognitive models based on geometric similarities, can naturally predict the common features effect by weighting each feature value difference with the share of attention allocated to the feature. Additional common features draw away attention from the already present features, which entails that the objects' differences with respect to already present features receive less weight, resulting in a higher similarity. The ability of the geometric similarity theory with relative attention to predict the common features effect is illustrated for data from Gati and Tversky (1984) and for data from a new pairwise similarity judgment experiment.
 
 ### Publication
-Seitz, von Helversen, Albrecht, Rieskamp, & Jarecki (in press)
+Seitz (in press)
 
 ### Funding
-This work was supported by the University of Basel.
-
-### Notes
-The reanalysis was conducted on data used in Will et al. (2015), Experiment 1, and originally reported in Milton et al. (2008), Experiment 5.
-
+This work was supported by the Swiss National Science Foundation [grant number P0BSP1 195389 to F. I. Seitz].
